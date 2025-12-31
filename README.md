@@ -1,16 +1,84 @@
-# React + Vite
+# 🌐 Rahul Kumar – Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my **personal portfolio website** built using **React + Vite**.  
+It showcases my skills, projects, and experience as a **Full Stack Developer** with a clean, modern, and interactive 3D-inspired UI.
 
-Currently, two official plugins are available:
+The portfolio is designed to be **simple, fast, and visually engaging**, using **inline styling only** (no external UI libraries).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
+👉 Deployed on Vercel  
+(Add your Vercel link here after deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js (Vite)
+- **Styling:** Inline CSS (3D hover & depth effects)
+- **Build Tool:** Vite
+- **Version Control:** Git & GitHub
+- **Deployment:** Vercel
+
+---
+
+## ✨ Features
+
+- Modern **Full Stack Developer** portfolio layout
+- **3D bulge / hover effects** on cards and UI elements
+- Professional hero section with profile image
+- Responsive and clean design
+- No external UI libraries (lightweight & fast)
+- Easy to deploy and customize
+
+---
+
+## 📁 Project Structure
+
+rahul-portfolio/
+│
+├── src/
+│ ├── assets/
+│ │ └── profile.png
+│ │
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Skills.jsx
+│ │ ├── Projects.jsx
+│ │ ├── Experience.jsx
+│ │ └── Contact.jsx
+│ │
+│ ├── App.jsx
+│ └── main.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/rahul-portfolio.git
+cd rahul-portfolio
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+The app will run at:
+
+http://localhost:5173
